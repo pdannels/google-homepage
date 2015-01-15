@@ -1,0 +1,118 @@
+
+/*--------------GENERAL-STYLES--------------*/
+
+html {
+	font-family: Helvetica, sans-serif;
+	font-size: 0.8125em;
+}
+
+body {
+	width: 100%;
+	position: relative;
+}
+
+header {
+	float: right;
+	margin-top: 15px;
+}
+
+footer {
+	clear:both;
+	position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:#eee;
+} 
+
+/*--------------LOGO-AND-SEARCHBAR--------------*/
+
+#main-content {
+	margin: 0 auto;
+	padding-top: 150px;
+	text-align: center;
+	clear:both;
+}
+
+#google-image {
+	width: 275px;
+	height: 95px;
+	padding-bottom: 20px;
+}
+
+#terms {
+	max-width: 572px;
+	min-width: 572px;
+	height: 27px;
+	display: block;
+	margin: 0 auto;
+	background: url(../img/mic.png) right center no-repeat;
+	border: 1px solid #ddd;
+}
+
+/*--------------BUTTON-STYLES--------------*/
+
+#app-drawer {
+	vertical-align: middle;
+}
+
+#signin {
+	color: #fff;
+	background-color: #36f;
+	border: 1px solid #36f;
+	padding: 5px 7px;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	vertical-align: middle;
+}
+
+.search-button {
+	margin: 15px 7.5px;
+	padding: 7px;
+	font-size: 0.85em;
+	font-weight: 700;
+	color: #333;
+	background-color: #eee;
+	border: 1px solid #bbb;
+}
+
+
+/*--------------LIST-STYLES--------------*/
+
+ul {
+	margin: 0 15px;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+}
+
+ul.top li {
+	padding: 0 10px;
+}
+
+ul.left {
+	float: left;
+}
+
+ul.right {
+	float: right;
+}
+
+ul.bottom {
+	padding-top: 15px;
+}
+
+ul.bottom li {
+	padding: 0 15px;
+}
+
+
+/*--------------LINK-STYLES--------------*/
+
+a:link {
+	text-decoration: none;
+	color: #555;
+}
